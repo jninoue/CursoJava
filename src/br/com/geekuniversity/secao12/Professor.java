@@ -8,6 +8,7 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
+			
 	public String toString() {
 		return super.toString() + "\nMatricula: " + this.matricula;
 	}
@@ -18,6 +19,13 @@ public class Professor extends Pessoa{
 	
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
+	}
+
+
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println(texto);
+		
 	}
 
 }

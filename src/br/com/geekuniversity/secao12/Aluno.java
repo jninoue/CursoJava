@@ -20,4 +20,10 @@ public class Aluno extends Pessoa{
 		this.ra = ra;
 	}
 
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println(texto);
+		
+	}
+
 }

@@ -1,6 +1,6 @@
 package br.com.geekuniversity.secao12;
 
-public class Pessoa {
+public abstract class Pessoa {
 	private String nome, email;
 	private int ano_nascimento;
 	
@@ -37,5 +37,8 @@ public class Pessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	//Declaração de um metodo abstrato
+	public abstract void outra_mensagem(String texto);
 
 }
