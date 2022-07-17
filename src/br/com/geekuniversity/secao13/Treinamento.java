@@ -2,7 +2,7 @@ package br.com.geekuniversity.secao13;
 //template method
 
 /*
- * E um modificador de acesso que faz com que o elemento
+ * FINAL E um modificador de acesso que faz com que o elemento
  * que esteja utilizando, não possa ser extendido/reescrito.
  */
 
