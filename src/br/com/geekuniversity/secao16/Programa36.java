@@ -14,6 +14,8 @@ public class Programa36 {
 				System.out.println(numeros[i]);	
 			}catch(ArrayIndexOutOfBoundsException e) {
 				System.out.println("Posição " + i + " inválida! ");
+			}finally {
+				System.out.println("Continua o processo...");
 			}
 			
 		}
