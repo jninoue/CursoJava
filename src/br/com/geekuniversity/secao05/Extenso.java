@@ -8,6 +8,7 @@ import java.util.Iterator;
 @SuppressWarnings("unchecked")  
 public class Extenso {  
     
+	@SuppressWarnings("rawtypes")
 	private ArrayList nro;  
     private BigInteger num;  
    
@@ -32,7 +33,8 @@ public class Extenso {
           };  
    
    
-    public Extenso() {  
+    @SuppressWarnings("rawtypes")
+	public Extenso() {  
        nro = new ArrayList();  
     }  
    
@@ -46,7 +48,8 @@ public class Extenso {
        setNumber(dec);  
     }  
    
-    public void setNumber(BigDecimal dec) {  
+    @SuppressWarnings({ "deprecation", "removal" })
+	public void setNumber(BigDecimal dec) {  
        // Converte para inteiro arredondando os centavos  
        num = dec.setScale(2, BigDecimal.ROUND_HALF_UP).multiply(BigDecimal.valueOf(100)).toBigInteger(); 
        // Adiciona valores  
@@ -72,7 +75,8 @@ public class Extenso {
    }  
    
     public void show() {  
-       Iterator valores = nro.iterator();  
+       @SuppressWarnings("rawtypes")
+	Iterator valores = nro.iterator();  
        while (valores.hasNext()) {  
           System.out.println(((Integer) valores.next()).intValue());  
        }  
@@ -120,7 +124,8 @@ public class Extenso {
        return false;  
     }  
       
-    private void addRemainder(int divisor) {  
+    @SuppressWarnings("removal")
+	private void addRemainder(int divisor) {  
        // Encontra newNum[0] = num modulo divisor, newNum[1] = num dividido divisor  
        BigInteger[] newNum = num.divideAndRemainder(BigInteger.valueOf(divisor));  
        // Adiciona modulo  

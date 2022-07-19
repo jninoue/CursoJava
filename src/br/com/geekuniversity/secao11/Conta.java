@@ -12,17 +12,19 @@ public class Conta {
 		this.cliente = cliente;
 	}
 	
-	void sacar(float valor) {
+	public void sacar(float valor) {
 		
 		if(valor <= (this.saldo + this.limite)) {
 			this.saldo = (this.saldo + this.limite) - valor;	
+			System.out.println("Saque realizado com sucesso!");
 		}else {
 			System.out.println("Saldo Insuficiente!");
 		}
 		
 	}
 	
-	void depositar(float valor) {
+		
+	public void depositar(float valor) {
 		this.saldo = this.saldo + valor;
 	}
 	
