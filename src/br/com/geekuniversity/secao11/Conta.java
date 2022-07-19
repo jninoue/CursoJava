@@ -23,7 +23,11 @@ public class Conta {
 		
 	}
 	
-		
+	
+	/**
+	 * Método para realizar depósito	
+	 * @param valor a ser depositado
+	 */
 	public void depositar(float valor) {
 		this.saldo = this.saldo + valor;
 	}
