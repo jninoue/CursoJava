@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Programa44 {
 
 	public static void main(String[] args) {
-Scanner teclado = new Scanner(System.in);
+		Scanner teclado = new Scanner(System.in);
 		
 		try {
 			PrintStream escrever = new PrintStream(new FileOutputStream("saida.txt", true));

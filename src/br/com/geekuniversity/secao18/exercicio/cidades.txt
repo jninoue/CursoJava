@@ -1,0 +1,5 @@
+JUNQUEIROPOLIS                          20000
+DRACENA                                 60000
+ADAMANTINA                              55000
+PRESIDENTE PRUDENTE                     300000
+TUPI PAULISTA                           18000
