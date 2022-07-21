@@ -29,6 +29,8 @@ public class Programa45 {
 //			System.out.println(nomes.get(i));
 //		}
 		
+		System.out.println(nomes);
+		
 		Collections.sort(nomes);
 		
 		for (Object nome : nomes){
