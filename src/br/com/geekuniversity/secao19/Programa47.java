@@ -7,6 +7,7 @@ import br.com.geekuniversity.secao11.Cliente;
 
 public class Programa47 {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 		
