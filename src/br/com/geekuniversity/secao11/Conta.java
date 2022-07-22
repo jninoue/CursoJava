@@ -28,7 +28,15 @@ public class Conta {
 	 * Método para realizar depósito	
 	 * @param valor a ser depositado
 	 */
-	public void depositar(float valor) {
+	//Forma 1 sincronismo 
+//	public void depositar(float valor) {
+//		synchronized(this) {
+//			this.saldo = this.saldo + valor;	
+//		}
+//	}
+	
+	//Forma 2 sincronismo
+	public synchronized void depositar(float valor) {
 		this.saldo = this.saldo + valor;
 	}
 	
