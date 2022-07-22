@@ -1,5 +1,6 @@
 package br.com.geekuniversity.secao11;
 
+@SuppressWarnings("rawtypes")
 public class Cliente implements Comparable{
 	String nome, endereco;
 	int idade;
