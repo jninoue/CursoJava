@@ -3,7 +3,7 @@ package br.com.geekuniversity.secao19;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import br.com.geekuniversity.secao11.Cliente;
+import br.com.geekuniversity.secao09.exercicio.Cliente;
 
 public class Programa47 {
 

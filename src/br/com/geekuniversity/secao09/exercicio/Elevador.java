@@ -1,4 +1,4 @@
-package br.com.geekuniversity.secao11;
+package br.com.geekuniversity.secao09.exercicio;
 
 public class Elevador {
 	private int andar, tot_andar, capacidade, pessoa_presente;

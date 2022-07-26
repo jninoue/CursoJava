@@ -1,6 +1,6 @@
 package br.com.geekuniversity.secao20;
 
-import br.com.geekuniversity.secao11.Conta;
+import br.com.geekuniversity.secao09.exercicio.Conta;
 
 public class FazDeposito implements Runnable{
 	private Conta conta;

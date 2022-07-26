@@ -1,4 +1,6 @@
-package br.com.geekuniversity.secao11;
+package br.com.geekuniversity.secao09.exercicio;
+
+import br.com.geekuniversity.secao11.Pessoa;
 
 public class Exercicio01 {
 
