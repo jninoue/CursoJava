@@ -39,7 +39,7 @@ public class Agenda {
 	
 	public void imprimeAgenda() {
 		
-		String fmt = "%4s %30s %9s%n";
+		String fmt = "%-30.30s %10s %10s%n";
 		System.out.printf(fmt, "Nome", "Idade", "Altura");
 		System.out.printf(fmt, "----", "-----", "------");
 				
@@ -51,7 +51,7 @@ public class Agenda {
 	}
 	
 	public void imprimePessoa(int posicao) {
-		String fmt = "%4s %30s %9s%n";
+		String fmt = "%-30.30s %10s %10s%n";
 		System.out.printf(fmt, "Nome", "Idade", "Altura");
 		System.out.printf(fmt, "----", "-----", "------");
 		System.out.printf(fmt, this.pessoas[posicao].getNome(), this.pessoas[posicao].getIdade(), this.pessoas[posicao].getAltura());
