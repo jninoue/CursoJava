@@ -3,8 +3,8 @@ package br.com.geekuniversity.secao19;
 import java.util.HashMap;
 import java.util.Map;
 
-import br.com.geekuniversity.secao09.exercicio.Cliente;
-import br.com.geekuniversity.secao09.exercicio.Conta;
+import br.com.geekuniversity.secao11.Cliente;
+import br.com.geekuniversity.secao11.Conta;
 
 public class Programa49 {
 

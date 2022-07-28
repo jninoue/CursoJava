@@ -2,8 +2,8 @@ package br.com.geekuniversity.secao17;
 
 import java.util.Scanner;
 
-import br.com.geekuniversity.secao09.exercicio.Cliente;
-import br.com.geekuniversity.secao09.exercicio.Conta;
+import br.com.geekuniversity.secao11.Cliente;
+import br.com.geekuniversity.secao11.Conta;
 
 public class Principal {
 	

@@ -1,4 +1,4 @@
-package br.com.geekuniversity.secao09.exercicio;
+package br.com.geekuniversity.secao11;
 
 public class Conta {
 	int numero;
