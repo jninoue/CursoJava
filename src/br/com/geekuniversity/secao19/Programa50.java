@@ -11,10 +11,11 @@ public class Programa50 {
 	public static void main(String[] args) {
 		Map<Integer, String> pessoas = new HashMap<Integer, String>();
 		
-		pessoas.put(21, "Felicity Jones");
+		pessoas.put(51, "Felicity Jones");
 		pessoas.put(31, "Maria Antonieta");
 		pessoas.put(41, "Angelina Jolie");
 		
+				
 		//COLEÇÃO DE CHAVES
 		System.out.println("Chaves....: " + pessoas.keySet());
 		
