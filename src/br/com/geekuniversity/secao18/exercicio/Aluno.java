@@ -15,6 +15,12 @@ public class Aluno implements Comparable<Aluno>{
 		this.nota = nota;
 	}
 	
+	public Aluno(float media, String nome) {
+		super();
+		this.nome = nome;
+		this.media = media;
+	}
+	
 		
 	public String getNome() {
 		return nome;

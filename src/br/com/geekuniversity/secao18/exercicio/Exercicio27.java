@@ -3,12 +3,12 @@ package br.com.geekuniversity.secao18.exercicio;
 import java.util.Scanner;
 
 public class Exercicio27 {
-
+	static Scanner teclado = new Scanner(System.in);
 	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
+		
 		int opcao = 0;
-		//System.out.println("Informe a nota de corte da turma: ");
-		//float nota_corte = Float.parseFloat(teclado.nextLine());
+		System.out.println("Informe a nota de corte da turma: ");
+		float nota_corte = Float.parseFloat(teclado.nextLine());
 		Notas notas = new Notas();
 		
 		do {
@@ -18,6 +18,7 @@ public class Exercicio27 {
 			System.out.println("| 3 - Exibir Aluno Aprovados            |");
 			System.out.println("| 4 - Exibir Aluno Reprovados           |");
 			System.out.println("| 5 - Salvar dados em disco             |");
+			System.out.println("| 6 - Ler dados em disco                |");
 			System.out.println("| 0 - Sair do sistema                   |");
 			System.out.println("+---------------------------------------+");
 			System.out.print("Opção-> ");
@@ -28,16 +29,19 @@ public class Exercicio27 {
 				notas.inserirNotas();
 				break;
 			case 2 :
-				
+				notas.exibirMedias();
 				break;
 			case 3 :
-				
+				notas.alunoAprovado(nota_corte);
 				break;
 			case 4 :
-				
+				notas.alunoReprovado(nota_corte);
 				break;
 			case 5 :
 				notas.salvar();
+				break;
+			case 6 :
+				notas.ler();
 				break;
 			case 0 :
 				System.out.println("Sistema finalizado!");
