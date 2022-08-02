@@ -28,7 +28,7 @@ public class Programa74 {
 
 		//palavras.sort(Comparator.comparing(s -> s.length()));
 		
-		//methid reference
+		//method reference
 		palavras.sort(Comparator.comparing(String::length));
 		//System.out.println(palavras);
 		palavras.forEach(System.out::println); // method references
