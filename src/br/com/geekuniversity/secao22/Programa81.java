@@ -16,6 +16,7 @@ public class Programa81 {
 		cursos.add(new Curso("Programação em Python: Essencial", 0));
 		cursos.add(new Curso("Banco de dados: essencial", 0));
 		
+		// usando thread
 		cursos.parallelStream()
 			.filter(c -> c.getAlunos( )>= 100)
 			.collect(Collectors.toMap(c -> c.getNome(), c -> c.getAlunos()))
